@@ -1,6 +1,38 @@
-body{
-    background-color: #960000;
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+
+    background: linear-gradient(135deg, #ffffff, #ff0000, #3b0101);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 55px;
+    height: 60px;
+    /* position: absolute; */
+    right: 100px;
+    border-radius: 5px;
+    border: #fff solid 1px;
+}
+
+.navUl {
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    transition: color 0.3s ease;
 }
