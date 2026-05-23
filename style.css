@@ -17,7 +17,7 @@ body {
 
 .logo {
     width: 55px;
-    height: 60px;
+    height: 55px;
     /* position: absolute; */
     right: 100px;
     border-radius: 5px;
@@ -31,8 +31,126 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: #f78d8d;
     font-size: 18px;
     margin-right: 20px;
     transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #f82e2e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?utm_source=chatgpt.com") no-repeat center center/cover;
+  position: relative;
+border: #f82e2e solid 1px;
+border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Dark overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  color: white;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: 600;
+  color: #ff0000;
+
+}
+.hero-content h1:hover {
+  font-size: 55px;
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: 500;
+  color: #ee4a4a;
+  cursor: pointer;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #f1f1f1;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #ff4d2e;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e63e22;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: black;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 35px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
 }
