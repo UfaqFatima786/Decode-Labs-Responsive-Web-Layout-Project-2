@@ -286,6 +286,7 @@ transform: translateY(-5px);
 
 .food-card:hover{
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .food-img{
@@ -310,12 +311,12 @@ transform: translateY(-5px);
 .food-content h3{
     font-size: 28px;
     font-weight: 700;
-    color: #222;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .food-content p{
-    color: #666;
+    color: #f8a8a8;
     line-height: 1.7;
     font-size: 15px;
     margin-bottom: 20px;
@@ -328,15 +329,15 @@ transform: translateY(-5px);
 }
 
 .food-bottom span{
-    color: #ff7a00;
+    color: #eea2a2;
     font-size: 24px;
     font-weight: bold;
 }
 
 .food-bottom button{
     border: none;
-    background: #ff7a00;
-    color: white;
+    background: #f12727;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 30px;
     font-weight: 600;
