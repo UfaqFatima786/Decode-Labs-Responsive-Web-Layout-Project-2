@@ -48,7 +48,7 @@ body {
 }
 
 .hero {
-  height: 100vh;
+  height: 70vh;
   background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?utm_source=chatgpt.com") no-repeat center center/cover;
   position: relative;
 border: #f82e2e solid 1px;
@@ -92,8 +92,8 @@ border-radius: 10px;
   font-size: 55px;
   margin-bottom: 15px;
   font-style: italic;
-  font-weight: 500;
-  color: #ee4a4a;
+  font-weight: 650;
+  color: #cc1f1f;
   cursor: pointer;
 }
 
@@ -133,6 +133,96 @@ border-radius: 10px;
   background: white;
   color: black;
 }
+/* ABOUT SECTION */
+
+.about-section{
+    background: #740000;
+    border-radius: 25px;
+}
+
+.about-img img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+.about-img img:hover{
+    transform: scale(1.03);
+}
+
+.about-subtitle{
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fcb9b9;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.stat-box{
+    background: rgb(243, 105, 105);
+    padding: 20px 10px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.stat-box:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.stat-box h3{
+    color: #0c0c0c;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.stat-box p{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.about-btn{
+    padding: 12px 30px;
+    border: none;
+    background: #ff7a00;
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.about-btn:hover{
+    background: #e56700;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+    .about-title{
+        font-size: 35px;
+    }
+
+    .about-img img{
+        height: 400px;
+    }
+}
 
 /* 📱 Responsive Design */
 @media (max-width: 768px) {
@@ -143,6 +233,17 @@ border-radius: 10px;
   .hero-content p {
     font-size: 16px;
   }
+    .about-title{
+        font-size: 30px;
+    }
+
+    .about-text{
+        font-size: 15px;
+    }
+
+    .stat-box{
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 480px) {
