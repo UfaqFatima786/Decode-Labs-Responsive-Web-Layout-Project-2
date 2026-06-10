@@ -6,9 +6,13 @@ This project focuses on creating a clean, user-friendly, and mobile-friendly int
 The layout is designed with responsive design principles to provide an optimized experience on:
 
 📱 Mobile Devices
+
 💻 Laptops
+
 🖥️ Desktop Screens
+
 📲 Tablets
+
 🌟 Project Overview
 .
 This project demonstrates the implementation of:
