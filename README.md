@@ -88,16 +88,6 @@ The layout is fully responsive and optimized for:
 
 ---
 
-# 📸 Preview
-
-Add your project screenshots here.
-
-```md
-![Project Preview](images/preview.png)
-```
-
----
-
 # 🤝 Contributing
 
 Contributions, suggestions, and improvements are always welcome.
