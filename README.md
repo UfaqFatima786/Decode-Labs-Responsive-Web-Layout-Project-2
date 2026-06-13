@@ -58,18 +58,14 @@ Decode-Labs-Responsive-Web-Layout-Project-2/
 ```
 
 ---
+https://foodies-hub-restuarant.netlify.app/
+🚀 Live Demo
 
-# 🚀 How to Run the Project
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/UfaqFatima786/Decode-Labs-Responsive-Web-Layout-Project-2.git
-```
-
-2. Open the project folder.
-
-3. Run the `index.html` file in your browser.
+View the project live here:
+.
+https://foodies-hub-restuarant.netlify.app/
+.
+Simply open the link in your browser to explore the website. . .
 
 ---
 
