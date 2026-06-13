@@ -57,8 +57,6 @@ Decode-Labs-Responsive-Web-Layout-Project-2/
 └── README.md
 ```
 
----
-https://foodies-hub-restuarant.netlify.app/
 🚀 Live Demo
 
 View the project live here:
