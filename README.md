@@ -48,9 +48,6 @@ This project demonstrates responsive web design principles using modern CSS tech
 
 # 📂 Folder Structure
 
-```bash
-Decode-Labs-Responsive-Web-Layout-Project-2/
-│
 ├── index.html
 ├── style.css
 ├── images/
